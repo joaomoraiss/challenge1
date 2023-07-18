@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="box">
+      <section class="leftSection">
+        <p>Your Result</p>
+        <div class="result"><span>76</span> of 100</div>
+        <p>Great</p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="rightSection">
+        <p>Summary</p>
+        <div class="resultsSection">
+          <div class="reactionResults">
+            <div class="wrap">
+              <img src="/assets/images/icon-reaction.svg" alt="" />Reaction
+            </div>
+            <div class="specificResult">80 <span>/ 100</span></div>
+          </div>
+          <div class="memoryResults">
+            <div class="wrap">
+              <img src="/assets/images/icon-memory.svg" alt="" />Memory
+            </div>
+            <div class="specificResult">92 <span>/ 100</span></div>
+          </div>
+          <div class="verbalResults">
+            <div class="wrap">
+              <img src="/assets/images/icon-verbal.svg" alt="" />Verbal
+            </div>
+            <div class="specificResult">61 <span>/ 100</span></div>
+          </div>
+          <div class="visualResults">
+            <div class="wrap">
+              <img src="/assets/images/icon-visual.svg" alt="" />Visual
+            </div>
+            <div class="specificResult">72 <span>/ 100</span></div>
+          </div>
+        </div>
+        <button class="continueBtn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
